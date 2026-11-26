@@ -1,0 +1,17 @@
+# Thornmere Estate
+
+> A private equestrian estate: a century-old timber and limestone barn restored for a small circle of riders. Livery, full board and a private club; viewings by appointment.
+
+Thornmere Estate is a fictional estate. This website is a design study; no bookings or payments are taken.
+
+## Site
+
+- [The Estate](https://the-commits.github.io/equestrian-estate/#aisle): Heritage and architecture of the barn
+- [Stabling](https://the-commits.github.io/equestrian-estate/#stalls): Stall craftsmanship: brass hardware, heated flooring, natural airflow
+- [Membership](https://the-commits.github.io/equestrian-estate/#tack): Livery €1,800/month, Full Board €3,200/month, Private Club by invitation
+- [Private Viewing](https://the-commits.github.io/equestrian-estate/#paddock): Viewing request form; also a WebMCP tool request_viewing
+
+## For agents
+
+- [Markdown version of the home page](https://the-commits.github.io/equestrian-estate/index.md)
+- [Sitemap](https://the-commits.github.io/equestrian-estate/sitemap.xml)

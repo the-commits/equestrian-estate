@@ -1,0 +1,15 @@
+# Response headers for static hosts that read a _headers file (e.g. Cloudflare Pages, Netlify).
+# Verify after hosting; other hosts need the same values in their own config.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=63072000; includeSubDomains
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Link: </llms.txt>; rel="help"; type="text/plain", </index.md>; rel="alternate"; type="text/markdown", </sitemap.xml>; rel="sitemap"
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+/index.md
+  Content-Type: text/markdown; charset=utf-8
